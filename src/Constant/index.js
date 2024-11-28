@@ -1,3 +1,4 @@
+import { useThree } from "@react-three/fiber";
 import {
     backend,
     web,
@@ -5,14 +6,14 @@ import {
     html,
     css,
     reactjs,
-    tailwind,
     nodejs,
     git,
     figma,
     meta,
+    php,
     starbucks,
     shopify,
-    threejs,
+    sql,
   } from "../assets";
   
   export const navLinks = [
@@ -59,20 +60,20 @@ import {
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "PHP",
+      icon: php,
     },
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "MySql",
+      icon: sql,
     },
     {
       name: "figma",
@@ -150,48 +151,36 @@ import {
   ];
   
    const projects = [
-  //   {
-  //     name: "Car Rent",
-  //     description:
-  //       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-  //     tags: [
-  //       {
-  //         name: "react",
-  //         color: "blue-text-gradient",
-  //       },
-  //       {
-  //         name: "mongodb",
-  //         color: "green-text-gradient",
-  //       },
-  //       {
-  //         name: "tailwind",
-  //         color: "pink-text-gradient",
-  //       },
-  //     ],
-  //     image: 'carrent',
-  //     source_code_link: "https://github.com/",
-  //   },
-  //   {
-  //     name: "Job IT",
-  //     description:
-  //       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //     tags: [
-  //       {
-  //         name: "react",
-  //         color: "blue-text-gradient",
-  //       },
-  //       {
-  //         name: "restapi",
-  //         color: "green-text-gradient",
-  //       },
-  //       {
-  //         name: "scss",
-  //         color: "pink-text-gradient",
-  //       },
-  //     ],
-  //     image: 'jobit',
-  //     source_code_link: "https://github.com/",
-  //   },
+    {
+      name: "Weather App",
+      description:
+        "This weather helps to find out the weather of any country or city",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: 'weather.png',
+      source_code_link: "https://github.com/HimmatMagar/Weather-App-",
+    },
+    {
+      name: "Learning Management System",
+      description:
+        "This porject made by php with little bit features like enrollment, courses selling.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "php",
+          color: "green-text-gradient",
+        },
+      ],
+      image: 'jobit',
+      source_code_link: "https://github.com/HimmatMagar/LMS",
+    },
   //   {
   //     name: "Trip Guide",
   //     description:
